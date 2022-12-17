@@ -1,0 +1,149 @@
+/*Aplico minha próprias configuração na página. Chamados essa pré configuração da página de Reset*/
+/*Como boa prática, começo aplicando essa configuração a todos os elementos da página*/
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+header{
+    background-color: rgb(184, 184, 184);
+    padding: 20px 0;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sports{
+    background-color: rgba(134, 48, 134, 0.3);
+}
+
+#economy{
+    background-color: rgba(255, 251, 0, 0.3);
+}
+
+#entertainment{
+    background-color: rgba(255, 124, 1, 0.3);
+}
+
+#technology{
+    background-color: rgba(1, 26, 255, 0.5);
+}
+
+header li a{
+    color: black;
+    text-decoration: none;
+}
+
+header li a:hover{
+    color: purple;
+    text-decoration: underline;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+    
+}
+
+.container h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    width: 100%;
+}
+
+.articles article{
+    width: 30%;
+}
+
+section{
+    padding: 10px 0;
+}
+
+section h2{
+    margin-bottom: 15px;
+}
+
+.articles article h3{
+    margin: 10px 0;
+}
+
+.articles article a {
+    color: white;
+    display: block;
+    padding: 8px;
+    margin-right: 155px;
+    text-decoration: none;
+}
+
+#sports .articles article a{
+    background-color: rgb(122, 42, 122);
+    align-items: center;
+}
+
+#economy .articles article a{
+    background-color: rgb(189, 178, 21);
+}
+
+#entertainment .articles article a{
+    background-color: orangered;
+}
+
+#technology .articles article a{
+    background-color: rgb(30, 30, 194);
+}
+
+#technology .articles article img{
+    margin-top: 10px;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.articles article p,
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#top{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 8px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 3px 3px 10px #333;
+    
+}
